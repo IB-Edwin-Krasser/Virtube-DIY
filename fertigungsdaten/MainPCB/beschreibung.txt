@@ -1,0 +1,6 @@
+muti-cb Standard-Parameter
+
+4-lagig, 1.6 Dicke, 35u Kupfer, 0.2mm Vias.
+
+Einseitig SMD-bestückt.
+Beidseitig bedrahtet bestückt (Potis, Klinken auch nach unten).
