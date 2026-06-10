@@ -3,7 +3,7 @@ Virtube Guitar Amplifier - Do It Yourself Software Framework
 
 * ./brd: Schaltplan, Layout und Eagle-BRD-Datei.
 
-* ./fertigungsdaten: Fertigungsdaten für Hauptprint und den Blenden, diverse Beschreibungen und Anleitungen.
+* ./fertigungsdaten: Fertigungsdaten für Hauptprint, Blenden und Gehäuse, diverse Beschreibungen und Anleitungen.
 
 * ./Virtube-DIY: Code Composer Studio Projekt.
     * Framework und Treiber, jeder kann seinen Verstärker selbst programmieren.
