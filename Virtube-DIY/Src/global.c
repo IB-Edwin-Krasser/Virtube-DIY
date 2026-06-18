@@ -48,6 +48,13 @@
 /** cpu low speed clock frequency (full speed, 1/2 is reset value) */
 #define LSCLK_FREQ (CLK_FREQ)
 
+/** part id */
+#define PART_ID     (*(unsigned i32 int *)0x0005D00A)
+/** revision id */
+#define REV_ID      (*(unsigned i32 int *)0x0005D00C)
+/** unique id */
+#define UNIQUE_ID   (*(unsigned i32 int *)0x000703CC)
+
 /* macros */
 
 /** pi */

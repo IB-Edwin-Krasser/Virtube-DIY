@@ -93,6 +93,8 @@ static void ParseCommand(char *RXBuf,char *TXBuf)
       if (n==1&&a[0]==12345) G_SWReset();
       n=-1; break;
 
+    case COM('i','d'): /* unique id */
+      a[0]=PART_ID&0xFFFFFF; a[1]=REV_ID; a[2]=UNIQUE_ID; n=3; break;
     case 'v': /* version */
       a[0]=MISC_HWVersion; a[1]=C_CompileDate; a[2]=C_CompileTime; n=3; break;
 
