@@ -2,12 +2,12 @@
 
 * Because of license reasons no files are added to the reposotory.
 * C2000Ware 5.02.00.00
-* Libraries: fpu_dsp_library, FPUfastRTS, device support (DSP2837x_headers), flash_api
+* Libraries: device support (DSP2837x_headers), FPUfastRTS, fpu_dsp_library, flash_api
 
 * directories in C2000Ware:
-* fpu_dsp_library: C2000Ware_xyz/libraries/dsp/FPU/c28
-* FPUfastRTS: C2000Ware_xyz/libraries/math/FPUfastRTS/c28
 * device support: C2000Ware_xyz/device_support/f2837xs
+* FPUfastRTS: C2000Ware_xyz/libraries/math/FPUfastRTS/c28
+* fpu_dsp_library: C2000Ware_xyz/libraries/dsp/FPU/c28
 * flash_api: C2000Ware_xyz/libraries/flash_api/f2837xs
 
 ### Tree
@@ -23,7 +23,7 @@
 * ./DSP2837x_headers/include/F2837xS_input_xbar.h
 * ./DSP2837x_headers/include/F2837xS_sci.h
 * ./DSP2837x_headers/include/F2837xS_eqep.h
-* ./DSP2837x_headers/include/F2837xS_mcbsp.h
+* ./DSP2837x_headers/include/F2837xS_mcbsp.h777
 * ./DSP2837x_headers/include/F2837xS_dac.h
 * ./DSP2837x_headers/include/F2837xS_memconfig.h
 * ./DSP2837x_headers/include/F2837xS_can.h
