@@ -14,3 +14,17 @@
 * ib.ekrasser@gmail.com
 * www.ib-ekrasser.at
 * www.ib-ekrasser.at/virtube
+
+* Lizenzinformationen zur Hardware:
+    * CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W v2)
+    * Copyright © 2025 Edwin Krasser
+
+    * This hardware design is released under the CERN-OHL-W v2 license with the following additional restriction:
+
+    * Commercial use, production, sale, or incorporation into commercial products is explicitly prohibited without prior written permission from the author.
+    * Contact for commercial licensing: edwin@virtube-amps.com
+
+    * Gerber files, Board files (.brd) and BOM are provided for non-commercial use.
+    * Schematic is provided as PDF only (not as editable source).
+
+    * Full license text: https://ohwr.org/project/cernohl/blob/master/LICENSE
