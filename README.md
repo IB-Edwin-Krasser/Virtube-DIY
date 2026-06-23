@@ -22,8 +22,6 @@
     * Gerber files, Board files (.brd) and BOM are provided for non-commercial use.
     * Schematic is provided as PDF only (not as editable source).
 
-    * Full license text: https://ohwr.org/project/cernohl/blob/master/LICENSE
-
 * Edwin Krasser, Ingenieurbüro für Elektrotechnik, Schwerpunkt F&E Elektronik.
 * ib.ekrasser@gmail.com
 * www.ib-ekrasser.at
