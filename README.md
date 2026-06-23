@@ -17,7 +17,7 @@
     * This hardware design is released under the CERN-OHL-W v2 license with the following additional restriction:
 
     * Commercial use, production, sale, or incorporation into commercial products is explicitly prohibited without prior written permission from the author.
-    * Contact for commercial licensing: edwin@virtube-amps.com
+    * Contact Edwin Krasser for commercial licensing.
 
     * Gerber files, Board files (.brd) and BOM are provided for non-commercial use.
     * Schematic is provided as PDF only (not as editable source).
