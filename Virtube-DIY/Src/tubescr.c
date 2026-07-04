@@ -59,14 +59,6 @@ extern void TS_SetParams(i32 int *p);
   * @param vi input voltage
   * @return output voltage */
 extern float TS_Calc(float vi);
-/** calculates frequency phase pesponse
-  * @param F normalized frequency
-  * @return phase */
-extern float TS_CalcPhase(float F);
-/** calculates group delay
-  * @param F normalized frequency
-  * @return group delay */
-extern float TS_CalcGroupDelay(float F);
 
 #ifndef HEADER_TUBESCR
 
