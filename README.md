@@ -1,5 +1,9 @@
 ## readme.md: Virtube-DIY
 
+<img width="1500" height="1080" alt="image" src="https://github.com/user-attachments/assets/58c75e01-cd5b-4027-a765-fded5cc6ca0d" />
+
+Virtube Amps VA50 – Virtueller Vollröhrenverstärker: So habe ich das "Kastl" genannt. Nun gebe ich die Fertigunsdaten der Hardware sowie das Software-Grundgerüst frei.
+
 * ./brd: Schaltplan, Layout und Eagle-BRD-Datei.
 
 * ./fertigungsdaten: Fertigungsdaten für Hauptprint und den Blenden, diverse Beschreibungen und Anleitungen.  
