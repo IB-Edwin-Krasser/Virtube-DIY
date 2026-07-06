@@ -2,7 +2,7 @@
 
 <img width="1500" height="1080" alt="image" src="https://github.com/user-attachments/assets/58c75e01-cd5b-4027-a765-fded5cc6ca0d" />
 
-Virtube Amps VA50 – Virtueller Vollröhrenverstärker: So habe ich das "Kastl" genannt. Nun gebe ich die Fertigunsdaten der Hardware sowie das Software-Grundgerüst frei.
+"Virtube Amps VA50" – Virtueller Vollröhrenverstärker: So habe ich das "Kastl" genannt. Nun gebe ich die Fertigunsdaten der Hardware sowie das Software-Grundgerüst frei.
 
 * ./brd: Schaltplan, Layout und Eagle-BRD-Datei.
 
@@ -12,6 +12,8 @@ Virtube Amps VA50 – Virtueller Vollröhrenverstärker: So habe ich das "Kastl"
 * ./Virtube-DIY: Code Composer Studio Projekt.
     * Framework und Treiber, jeder kann seinen Verstärker selbst programmieren.
     * Das gesamte Software-Framework ist Doxygen-dokumentiert.
+    * Die Simulationen und Berechnungen der virtuellen Rörhren in den Verstärkerstufen (Virtual Tube ... Virtube) sowie die Verstärkermodelle sind nicht Teil der Veröffentlichung.
+    * Die vier Effekte (Noise Gate, Tube Screamer, Equalizer, Reverb) sind dabei.
     * Library-Dateien von TI sind aus lizenzrechtlicher Vorsicht nicht dabei, sehrwohl aber ein Verzeichnisbaum mit den benötigten Dateien (C2000Ware). Siehe: https://e2e.ti.com/support/microcontrollers/c2000-microcontrollers-group/c2000/f/c2000-microcontrollers-forum/1654050/tms320f28377s-c2000ware-license-and-public-distribution-for-a-do-it-yourself-project
 
 * Lizenzinformationen zur Hardware:
