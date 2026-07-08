@@ -1,6 +1,6 @@
 ## readme.md: Virtube-DIY
 
-<img width="1500" height="1080" alt="image" src="https://github.com/user-attachments/assets/58c75e01-cd5b-4027-a765-fded5cc6ca0d" />
+<img width="1500" height="1081" alt="AmpLightFront" src="https://github.com/user-attachments/assets/f70892f7-6486-40b8-8978-b6342a517ef4" />
 
 "Virtube Amps VA50" – Virtueller Vollröhrenverstärker: So habe ich das "Kastl" genannt. Nun gebe ich die Fertigunsdaten der Hardware sowie das Software-Grundgerüst frei.
 
