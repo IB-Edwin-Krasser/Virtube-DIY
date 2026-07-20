@@ -12,8 +12,8 @@
 * ./Virtube-DIY: Code Composer Studio Projekt.
     * Framework und Treiber, jeder kann seinen Verstärker selbst programmieren.
     * Das gesamte Software-Framework ist Doxygen-dokumentiert.
-    * Die Simulationen und Berechnungen der virtuellen Rörhren in den Verstärkerstufen (Virtual Tube ... Virtube) sowie die Verstärkermodelle sind nicht Teil der Veröffentlichung.
-    * Die vier Effekte (Noise Gate, Tube Screamer, Equalizer, Reverb) sind dabei.
+    * Die Simulationen und Berechnungen der virtuellen Verstärker sind nicht Teil der Veröffentlichung.
+    * Die vier Effekte (Noise Gate, Tube Screamer, Equalizer, Reverb) sind dabei, sowie die virtuelle Rörenberechnung, viel Spaß damit!
     * Library-Dateien von TI sind aus lizenzrechtlicher Vorsicht nicht dabei, sehrwohl aber ein Verzeichnisbaum mit den benötigten Dateien (C2000Ware). Siehe: https://e2e.ti.com/support/microcontrollers/c2000-microcontrollers-group/c2000/f/c2000-microcontrollers-forum/1654050/tms320f28377s-c2000ware-license-and-public-distribution-for-a-do-it-yourself-project
 
 * Lizenzinformationen zur Hardware:
