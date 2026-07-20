@@ -202,7 +202,7 @@ void AD_Init(void (*AdcIsr)(void))
 void AD_GetMiscADCs(void)
 { int i;
 
-  /* get adc value */
+  /* get adg value */
   AD_Pots[0]=AdcbResultRegs.ADCRESULT0;
   AD_Pots[1]=AdcbResultRegs.ADCRESULT1;
   AD_Pots[2]=AdcbResultRegs.ADCRESULT2;

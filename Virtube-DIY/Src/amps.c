@@ -71,6 +71,8 @@ extern void AMPS_SetSwitches(int s);
 
 #define HEADER_ADCDAC
 #include "adcdac.c"
+#define HEADER_VIRTUBE
+#include "virtube.c"
 
 #include "fpu_math.h"
 
@@ -88,6 +90,13 @@ static float LogParams[AMP_PARAMS];
 /** switches, binary coded  */
 static int Switches;
 
+/** anode voltages */
+static float Va[2];
+/** cathode voltages */
+static float Vc[2];
+/** output voltages  */
+static float Vo[2];
+
 void AMPS_Init(void)
 { int i;
 
@@ -100,20 +109,28 @@ void AMPS_Init(void)
   Params[5]=0.5;
   Switches=0;
   for(i=0;i<AMP_PARAMS;i++) LogParams[i]=MISC_LogParam(Params[i]);
+  /* bias of tube gainn stages */
+  VT_MaxIterations=MAX_ITERATIONS;
+  VT_SetZeros(0,0);
+  VT_CGSFullCalc(0,300,100E3,1.0/1E3,0,&Va[0],&Vc[0]); Vo[0]=Va[0];
+  VT_CGSFullCalc(0,300,100E3,1.0/1E3,0,&Va[1],&Vc[1]); Vo[1]=Va[1];
+  VT_MaxIterations=3;
 }
 
 float AMPS_Calc(float Vi)
-{ float Vo;
+{ float Out;
 
   /* 
    * ... code!
    */
   Vi*=(1+(Switches&1));
 
-  Vo=Vi*LogParams[4]*4; /* 4..volume at front */
+  VT_CGSFullCalc(0,300,100E3,1.0/1E3,Vi,&Vo[0],&Vc[0]);
+  VT_CGSCalc(0,300-Vc[1],1.0/100E3,(Vo[0]-Va[0])*0.2*LogParams[0]-Vc[1],&Vo[1]); /* 0..gain at front */
+  Out=(Vo[1]-Va[1])*LogParams[4]*0.1; /* 4..volume at front */
 
-  Vo*=(1+((Switches&4)>>2));
-  return(Vo);
+  Out*=(1+((Switches&4)>>2));
+  return(Out);
 }
 
 int AMPS_GetParams(i32 int *p)
